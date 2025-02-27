@@ -85,7 +85,7 @@ def install():
     os.system("apt update")
     os.system("apt install docker-compose -y")
     os.system("apt install git -y")
-    os.system("git clone https://github.com/AeroNyxNetwork/NodeDocker.git /opt/node_docker")
+    os.system("git clone https://github.com/AeroNyxNetwork/OnionNodeDocker.git /opt/node_docker")
     os.system("chmod a+rw /opt/node_docker/data/aero_nyx_db/logs")
     os.system("docker-compose -f /opt/node_docker/docker-compose.yml pull")
     print("Result:"+green_str("success"))
