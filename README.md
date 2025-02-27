@@ -5,7 +5,7 @@ Tools for deploying AeroNyxNode services.
 ## Download source
 ```shell 
 git clone https://github.com/AeroNyxNetwork/AeroNyxDecentralizedOnionNodeTool.git
-cd AeroNyxDecentralizedNodeOnionTool/
+cd AeroNyxDecentralizedOnionNodeTool/
 ```
 
 ## Deploy Environment
